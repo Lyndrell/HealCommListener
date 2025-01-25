@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: HealCommListener
+## Author: Lyndrell
+## Notes: Listen to who is using HealComm and print a list of users
+## Version: 1.0
+## SavedVariablesPerCharacter: HCUSERLIST
+
+HealCommListener.lua
