@@ -3,7 +3,7 @@ local HealCommUsers = {}
 SLASH_HEALCOMMLISTENER1 = "/hcl"
 SLASH_HEALCOMMLISTENER2 = "/HCL"
 SlashCmdList["HEALCOMMLISTENER"] = function(msg)
-	print("HealCommListener: Players need to cast spells while in your group in order to appear in the list. /hclreset for flushing the list")
+	print("HealCommListener: Players need to cast spells while in your group or raid in order to appear in the list.")
 	print("/hclreset for flushing the list.")
 	print("/hclsave for saving the list to a file.")
 	print("Listing players in the HealComm user list:")
@@ -20,7 +20,7 @@ end
 SLASH_HEALCOMMLISTENERSAVE1 = "/hclsave"
 SLASH_HEALCOMMLISTENERSAVE2 = "/HCLSAVE"
 SlashCmdList["HEALCOMMLISTENERSAVE"] = function(msg)
-	print("HealCommListener: Players in the list will saved to HealCommListener.lua in your WTF Account and character variables on logout.")
+	print("HealCommListener: Players in the list will saved to HealCommListener.lua in your WTF Account and character variables ON LOGOUT!")
 	HCUSERLIST = HealCommUsers
 end
 
